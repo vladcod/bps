@@ -12,7 +12,7 @@ h3, h4 {
     font-family: Montserrat, sans-serif;
 }
 .container{
-	padding:80px 120px;
+	padding:80px 80px 20px 80px;
 }
 .book{
 	border: 10px solid transparent;
@@ -95,15 +95,15 @@ footer a:hover {
     color: #777;
     text-decoration: none;
 }
-  ul {         
+#gallery ul {         
           padding:0 0 0 0;
           margin:0 0 0 0;
       }
-      ul li {     
+#gallery  ul li {     
           list-style:none;
           margin-bottom:25px;           
       }
-      ul li img {
+#gallery  ul li img {
           cursor: pointer;
       }
       .modal-body {
@@ -143,4 +143,15 @@ footer a:hover {
               display:none;
           }
       }
+#gallery img{
+	-webkit-filter: sepia(20%);
+    filter: sepia(20%);
+}
+#gallery img:hover{
+	-webkit-filter: none;
+    filter: none;
+}
+#home{
+	padding:80px 200px;
+}
 		
