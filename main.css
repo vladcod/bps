@@ -95,6 +95,7 @@ footer a:hover {
     color: #777;
     text-decoration: none;
 }
+
 #gallery ul {         
           padding:0 0 0 0;
           margin:0 0 0 0;
@@ -144,6 +145,7 @@ footer a:hover {
           }
       }
 #gallery img{
+	background: url(galerie/loading.gif) 50% no-repeat;
 	-webkit-filter: sepia(20%);
     filter: sepia(20%);
 }
