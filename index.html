@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link type="image/png" rel="shortcut icon" href="/carte.png" />
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -25,10 +26,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home"><span class="glyphicon glyphicon-home"></span></a></li>
         <li><a href="#about">Despre noi</a></li>
         <li><a href="#history">Din istorie</a></li>
-        <li><a href="#gallery">Galerie foto</a></li>
+        <li><a href="#gallery">Galerie</a></li>
         <li><a href="#contact">Contact</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Suplimentar
@@ -100,23 +101,49 @@
   </a>
 </div>
 </div>
+
 <div id="about" class="container text-center">
-	<h3>Despre noi</h3>
-	<ul class="text-left">
-		<li>Biblioteca Publica Scoreni are un rol istoric in educatia comunitatii</li>
-		<li>Biblioteca Publica este deschisa pentru oamenii de toate virstele, indiferent de statut</li>
-		<li>Biblioteca Publica este un loc pentru intruniri sociale</li>
-		<li>Biblioteca Publica reprezinta memoria, istoriei si culturii comunitare</li>
-		<li>Biblioteca Publica isi extinde serviciile si pentru persoanele cu dizabilitati</li>
-		<li>Biblioteca Publica ofera servicii prin abilitatile tehnologiilor informationale si de comunicare,
-			dezvolta programe de formare a utilizatorilor</li>
-		<li>Biblioteca Publica ofera oportunitati pentru perceperea bibliotecii ca un centru de cultura, educatie,
-			informatie, loisir, ca loc cald si primitor de petrecere utila si placuta a timpului liber,
-			ca factor de integrare in societate</li>
-	</ul>
+	<h2>Despre noi</h2>
+	<div class="row">
+	<div class="col-sm-3">
+		<i class="fa fa-university fa-4x"></i>
+		<p>Biblioteca Publica Scoreni are un rol istoric in educatia comunitatii</p>
+		</div>
+	<div class="col-sm-3">
+		<i class="fa fa-globe fa-4x"></i>	
+		<p>Biblioteca Publica este deschisa pentru oamenii de toate virstele, indiferent de statut</p>
+		</div>
+	<div class="col-sm-3">
+		<i class="fa fa-users fa-4x"></i>	
+		<p>Biblioteca Publica este un loc pentru intruniri sociale</p>
+	</div>
+	<div class="col-sm-3">
+		<i class="fa fa-history fa-4x"></i>
+		<p>Biblioteca Publica reprezinta memoria, istoriei si culturii comunitare</p>
+	</div>
+	<div class="col-sm-3">
+		<i class="fa fa-wheelchair  fa-4x"></i>
+		<p>Biblioteca Publica isi extinde serviciile si pentru persoanele cu dizabilitati</p>
+	</div>
+	<div class="col-sm-3">
+		<i class="fa fa-laptop fa-4x"></i>
+		<p>Biblioteca Publica ofera servicii prin abilitatile tehnologiilor informationale si de comunicare,
+			dezvolta programe de formare a utilizatorilor</p>
+	</div>
+	<div class="col-sm-3">
+		<i class="fa fa-graduation-cap  fa-4x"></i>
+		<p>Biblioteca Publica ofera oportunitati pentru perceperea bibliotecii ca un centru de cultura, educatie,
+			informatie, loisir</p>
+	</div>
+	<div class="col-sm-3">
+		<i class="fa fa-book  fa-4x"></i>
+		<p>Biblioteca Publica este un loc cald si primitor de petrecere utila si placuta a timpului liber,
+			un factor de integrare in societate</p>
+	</div>
+	</div>
 </div>
 <div id="history" class="container text-center">
-	<h3>Din istoria bibliotecii</h3>
+	<h2>Din istoria bibliotecii</h2>
 	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading1">
@@ -285,7 +312,7 @@
 	</div>
 </div>
 <div id="gallery" class="container text-center">
-<h3>Galerie</h3>
+<h3>Galerie foto</h3>
 <ul class="row">
   <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
     <img class="img-responsive" src="galerie/1.jpg">
