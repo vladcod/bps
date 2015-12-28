@@ -26,15 +26,16 @@ h3, h4 {
     opacity: 1;
 }
 .carousel-inner img {
-    -webkit-filter: grayscale(70%);
-    filter: grayscale(70%); /* make all photos black and white */ 
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%); /* make all photos black and white */ 
 	width: 100%; /* Set width to 100% */
 	margin: auto;
 }
 .carousel-caption h3 {
     color: #fff !important;
 }
-@media (max-width: 600px) {
+
+@media (max-width: 980px) {
     .carousel-caption {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
@@ -139,11 +140,7 @@ footer a:hover {
               padding-top: 90px;
           }          
       }
-      @media screen and (max-width:1500px){
-          #ads {
-              display:none;
-          }
-      }
+      
 #gallery img{
 	background: url(galerie/loading.gif) 50% no-repeat;
 	-webkit-filter: sepia(20%);
@@ -153,7 +150,4 @@ footer a:hover {
 	-webkit-filter: none;
     filter: none;
 }
-#home{
-	padding:80px 200px;
-}
-		
+	
