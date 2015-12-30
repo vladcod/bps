@@ -162,7 +162,7 @@ footer a:hover {
     filter: none;
 }
 #about [class*="col"]{
-	color:#0F2C42;
+	color:#777;
 	margin-top:20px;
 	padding:15px 10px;
 }
