@@ -35,6 +35,16 @@ h2, h3, h4 {
 .carousel-caption h3 {
     color: #fff !important;
 }
+.bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+  }
+.bg-1 h3 {
+	 color: #fff;
+	 }
+.bg-1 p {
+	font-style: italic;
+	}
 
 @media (max-width: 980px) {
     .carousel-caption {
