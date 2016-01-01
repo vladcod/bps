@@ -2,6 +2,11 @@ body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
 }
+h1{
+	display: inline-block;
+	font-size:24px;
+	float:left;
+}
 h2, h3, h4 {
     margin: 10px 0 30px 0;
     letter-spacing: 10px; 
@@ -13,7 +18,7 @@ h2, h3, h4 {
     font-family: Montserrat, sans-serif;
 }
 .container{
-	padding:80px 80px 20px 80px;
+	padding:80px 80px 80px 80px;
 }
 .book{
 	border: 10px solid transparent;
@@ -97,15 +102,23 @@ footer {
     background-color: #2d2d30;
     color: #f5f5f5;
     padding: 32px;
+	
 }
 
 footer a {
     color: #f5f5f5;
 }
 
+footer p{
+	padding:20px 40px 40px 40px;
+}
+
 footer a:hover {
     color: #777;
     text-decoration: none;
+}
+#history .container{
+		padding-bottom:120px;
 }
 
 #gallery ul {         
@@ -153,7 +166,7 @@ footer a:hover {
       }
       
 #gallery img{
-	background: url(galerie/loading.gif) 50% no-repeat;
+	
 	-webkit-filter: sepia(20%);
     filter: sepia(20%);
 }
@@ -162,8 +175,31 @@ footer a:hover {
     filter: none;
 }
 #about [class*="col"]{
-	color:#777;
 	margin-top:20px;
 	padding:15px 10px;
 }
+#about [class*="fa"]{
+	color:#f88232;
+}
+#contact h3{
+	padding-bottom:50px;
+}
+#contact p{
+	padding: 15px 15px;
+}
+.panel-group .panel+.panel{
+	margin-top:0px !important;
+}
+.panel-heading:hover{
+	color:#FFF;
+	text-decoration:none;
+	background-color:#777;
+}
+.panel-body{
+	color:#2d2d30;
+}
+#logo{
+	background-color:#000;
+}
+
 	
