@@ -18,7 +18,7 @@ h2, h3, h4 {
     font-family: Montserrat, sans-serif;
 }
 .container{
-	padding:80px 80px 80px 80px;
+	padding:50px 80px 80px 80px;
 }
 .book{
 	border: 10px solid transparent;
@@ -101,7 +101,7 @@ h2, h3, h4 {
 footer {
     background-color: #2d2d30;
     color: #f5f5f5;
-    padding: 32px;
+    padding: 12px;
 	
 }
 
@@ -109,9 +109,7 @@ footer a {
     color: #f5f5f5;
 }
 
-footer p{
-	padding:20px 40px 40px 40px;
-}
+
 
 footer a:hover {
     color: #777;
@@ -211,6 +209,6 @@ footer a:hover {
 }
 .navbar-brand {
 	font-family: "Kaushan Script", cursive;
-	color:#EC99DE !important;
+	color:#ECEF32 !important;
 }
 	
