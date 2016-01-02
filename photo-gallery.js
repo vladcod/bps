@@ -9,8 +9,8 @@ $(document).ready(function(){
 		var html = '';
 		html += img;                
 		html += '<div style="height:25px;clear:both;display:block;">';
-		html += '<a class="controls next" href="'+ (index+2) + '">next &raquo;</a>';
-		html += '<a class="controls previous" href="' + (index) + '">&laquo; prev</a>';
+		html += '<a class="controls next" href="'+ (index+2) + '">urmator &raquo;</a>';
+		html += '<a class="controls previous" href="' + (index) + '">&laquo; prec</a>';
 		html += '</div>';
 		
 		$('#myModal').modal();

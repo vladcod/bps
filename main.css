@@ -65,7 +65,7 @@ h2, h3, h4 {
     opacity:0.9;
 }
 /* Add a gray color to all navbar links */
-.navbar li a, .navbar .navbar-brand { 
+.navbar li a, .navbar  { 
     color: #d5d5d5 !important;
 }
 /* On hover, the links will turn white */
@@ -173,6 +173,7 @@ footer a:hover {
 #gallery img:hover{
 	-webkit-filter: none;
     filter: none;
+	
 }
 #about [class*="col"]{
 	margin-top:20px;
@@ -198,8 +199,18 @@ footer a:hover {
 .panel-body{
 	color:#2d2d30;
 }
-#logo{
-	background-color:#000;
+#myPage .navbar-brand>img{
+	margin:0 10px;
+	display:inline;
+	height:100%;
 }
-
+#logo{
+	height:100px;
+	padding-top:50px;
+	
+}
+.navbar-brand {
+	font-family: "Kaushan Script", cursive;
+	color:#EC99DE !important;
+}
 	
